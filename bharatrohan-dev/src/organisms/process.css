@@ -1,0 +1,4 @@
+.custom-cursor:hover {
+  cursor: url('data:image/svg+xml,<svg width="48" height="48" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50.5249" cy="49.9438" r="49.2779" fill="white" stroke="%23D9D9D9" stroke-width="1.33184"/><path d="M35.525 37.9402L22.1348 49.9436L35.525 61.9474" stroke="black" stroke-width="2.7"/><path d="M65.5248 37.9402L78.915 49.9436L65.5248 61.9474" stroke="black" stroke-width="2.7"/></svg>'),
+    auto;
+}

@@ -1,0 +1,30 @@
+ <svg
+      width="73"
+      height="73"
+      viewBox="0 0 73 73"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g id="Group 9595">
+        <path
+          id="b3770b90-fcf2-4359-8d44-adf5ab647f2c"
+          d="M36.3408 0.884277L72.1953 36.7388V0.884277"
+          fill="#D1FB94"
+        />
+        <path
+          id="eed6720d-2b18-4c30-a600-f62b510b0378"
+          d="M0.487305 0.884277V36.7388L36.3418 0.884277"
+          fill="#D1FB94"
+        />
+        <path
+          id="a1f0fb98-9269-4c5b-9c94-eef38cc0093a"
+          d="M36.3408 36.7388L72.1953 72.5933V36.7388"
+          fill="#D1FB94"
+        />
+        <path
+          id="a4ba43ac-06a3-4f3d-a488-1927a4ffd64f"
+          d="M0.487305 36.7388V72.5933L36.3418 36.7388"
+          fill="#D1FB94"
+        />
+      </g>
+    </svg>

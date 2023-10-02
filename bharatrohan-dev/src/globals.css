@@ -1,0 +1,41 @@
+.d {
+  @apply border-2 border-[red] border-solid;
+}
+
+.text-anchor {
+  @apply text-base text-dark;
+}
+
+.marquee {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 100%;
+  animation: scroll-x 300s linear infinite;
+}
+.marquee-reverse {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 100%;
+  animation: scroll-x-reverse 320s linear infinite;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 2rem));
+  }
+}
+@keyframes scroll-x-reverse {
+  from {
+    transform: translateX(calc(-100% - 2rem));
+  }
+  to {
+    transform: translateX(0);
+  }
+}

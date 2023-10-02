@@ -1,0 +1,62 @@
+.animate-words {
+  animation: scroll 6s linear infinite alternate;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-60px);
+  }
+  45% {
+    transform: translateY(-60px);
+  }
+  50% {
+    transform: translateY(-120px);
+  }
+  70% {
+    transform: translateY(-120px);
+  }
+  75% {
+    transform: translateY(-180px);
+  }
+  95% {
+    transform: translateY(-180px);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}
+
+.clipImage {
+  clip-path: circle(0px at center);
+  transition: clip-path 2s ease-in-out;
+}
+
+.remove-clip {
+  clip-path: circle(1000px at center);
+}
+
+.marquee-aboutUs {
+  animation: marquee-aboutUs 20s linear infinite;
+}
+
+@keyframes marquee-aboutUs {
+  to {
+    transform: translate(calc(-50% - 1rem));
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .mobile-timeline-container {
+    max-width: 19.5rem !important;
+    overflow: hidden !important;
+  }
+  /* .mobile-timeline {
+    grid-template-columns: 26rem;
+  } */
+}
